@@ -1,0 +1,16 @@
+// Callout
+.callout {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: $white;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/code.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    display: block;
+    max-width: 30rem;
+  }
+}
