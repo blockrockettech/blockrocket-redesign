@@ -409,6 +409,10 @@ header.masthead .intro-text .intro-sub-heading {
   background-color: #212529;
 }
 
+#team {
+  background-image: url("../img/br_repeat.png");
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
