@@ -22,6 +22,48 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113374937-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113374937-1');
+    </script>
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                    t[e] = t.factory(e);
+                }), t.load = function(t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('g9awpdnc3rwa');
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
 
 <body id="page-top">
@@ -167,7 +209,7 @@
                     <!--<i class="fas fa-plus fa-3x"></i>-->
                     <!--</div>-->
                     <!--</div>-->
-                    <img class="img-fluid p-4" src="img/clients/" alt="">
+                    <img class="img-fluid p-4" src="img/clients/opentally.png" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>OpenTally</h4>
@@ -392,7 +434,7 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/James.jpg" alt="">
                     <h4>James Morgan</h4>
-                    <p class="text-muted">Founder &amp; Blockchain Consultant</p>
+                    <p class="text-muted">Blockchain Consultant</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
                             <a href="https://twitter.com/jimbob_87" target="_blank">
@@ -421,7 +463,7 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/AndyNoBorder.png" alt="Andy Gray">
                     <h4>Andy Gray</h4>
-                    <p class="text-muted">Founder &amp; Blockchain Consultant</p>
+                    <p class="text-muted">Blockchain Consultant</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
                             <a href="https://twitter.com/awaygray" target="_blank">
@@ -450,7 +492,7 @@
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/Dave.png" alt="">
                     <h4>David Moore</h4>
-                    <p class="text-muted">Founder & UX Consultant</p>
+                    <p class="text-muted">UX Consultant</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
                             <a href="https://twitter.com/selfmadeheroes" target="_blank">
@@ -472,55 +514,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                    <h4>Jim Collins</h4>
-                    <p class="text-muted">Engineer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-                    <h4>Jim Collins</h4>
-                    <p class="text-muted">Engineer</p>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/James.jpg" alt="">
                     <h4>Jim Collins</h4>
                     <p class="text-muted">Engineer</p>
                     <ul class="list-inline social-buttons">
