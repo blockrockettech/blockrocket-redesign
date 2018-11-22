@@ -61,6 +61,9 @@
         margin: 0;
         @include serif-font;
       }
+      a {
+        color: black;
+      }
     }
   }
   * {
@@ -78,7 +81,7 @@
 .portfolio-modal {
   padding-right: 0px !important;
   .modal-dialog {
-    max-width: 50vw;
+    max-width: 90vw;
     margin: auto;
   }
   .modal-content {
